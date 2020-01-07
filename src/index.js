@@ -19,14 +19,11 @@ app.post('/notes', (req, res) => {
 });
 
 app.get('/notes', (req, res) => {
-  res.status(500).send(error);
-  /*
   Note.find({}).then((notes) => {
     res.send(notes);
   }).catch((error) => {
     res.status(500).send(error);
   });
-  */
 });
 
 app.get('/notes/title/:title', (req, res) => {
