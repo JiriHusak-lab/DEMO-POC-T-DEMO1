@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
-app.post('/notes', (req, res) => {
+app.post('/Xnotes', (req, res) => {
   const note = new Note(req.body);
   note.save().then(() => {
     res.send(note);
