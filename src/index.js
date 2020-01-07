@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
-const express = require('express');
-require('./db/mongoose');
+const express = require('Xexpress');
+require('./db/Xmongoose');
 const Note = require('./models/note');
 
 const app = express();
@@ -38,5 +38,5 @@ app.get('/notes/title/:title', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log('Server running on port ', port + ' correctly!');
+  console.log('Server running on port ', port + ' correctly !');
 });
