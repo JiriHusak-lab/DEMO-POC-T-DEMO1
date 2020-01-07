@@ -18,7 +18,7 @@ app.post('/Xnotes', (req, res) => {
   });
 });
 
-app.get('/notes', (req, res) => {
+app.get('/Xnotes', (req, res) => {
   Note.find({}).then((notes) => {
     res.send(notes);
   }).catch((error) => {
