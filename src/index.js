@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-const express = require('Xexpress');
+const express = require('express');
 require('./db/mongoose');
 const Note = require('./models/note');
 
