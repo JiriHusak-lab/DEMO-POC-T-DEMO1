@@ -38,5 +38,5 @@ app.get('/notes/title/:title', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log('Server running on port ', port + ' correctly !');
+  console.log('Server running on port ', port + ' correctly , and it is ok!');
 });
